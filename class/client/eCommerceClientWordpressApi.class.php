@@ -66,7 +66,7 @@ class eCommerceClientWordpressApi extends eCommerceClientApi
 		try {
 			$options = [
 				// Base URI is used with relative requests
-				'base_uri' => $this->api_url,
+				'base_uri',
 				// You can set any number of default request options.
 				'timeout' => $timeout,
 			];
